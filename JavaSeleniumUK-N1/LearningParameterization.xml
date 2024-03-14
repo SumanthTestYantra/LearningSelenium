@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="a" value="5"></parameter>
+	<parameter name="b" value="10"></parameter>
+	<test thread-count="5" name="Test1">
+		<classes>
+			<class name="learningParameterization.LearningAtParameter" />
+		</classes>
+	</test> <!--test runner
+	Test -->
+	<test thread-count="5" name="Test2">
+		<classes>
+			<class name="learningParameterization.LearningAtParameter" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
